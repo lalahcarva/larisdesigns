@@ -303,7 +303,7 @@ h2 {
 /* -------  ABOUT page styles */
 
 .about {
-    height: 80vh;
+    height: 50vh;
     margin-top: 100px;
 }
 
@@ -326,9 +326,11 @@ h2 {
     justify-content: flex-end; /* Change from 'end' to 'flex-end' */
     align-content: end;
     height: 50px;
+    display: none;
 }
 
 .biotitle {
+    display: none;
     width: 95%;
     position: relative;
     color: var(--themeRose);
@@ -1072,12 +1074,17 @@ footer>p {
 @media screen and (max-width: 1250px) {
     /* content */
     .biotitle {
+        display: block;
         position: relative;
         color: var(--themeRose);
         transform: none;
         left: 30px;
         top: 5px;
         height: 200px;
+    }
+
+    .biotitle2 {
+        display: none;
     }
 
     .biobox {
