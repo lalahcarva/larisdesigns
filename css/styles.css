@@ -296,9 +296,17 @@ h2 {
 }
 
 
+/* Slider */
 
+#slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-
+.slidercontent {
+    width: 80% ;
+}
 
 /* -------  ABOUT page styles */
 
