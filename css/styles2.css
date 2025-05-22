@@ -749,80 +749,32 @@ h5 {
 
 /* ------- ILLUSTRATION page styles */
 
-.illustrationtitle {
-    text-align: start;
-    color: var(--themeRose);
-}
-
 .gallery {
-	display: flex;
-	flex-wrap: wrap;
-    width: 100%;
-    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 0;
 }
-
 
 .gallery-item {
-    margin: 5px;
-	overflow: hidden;
-    width: 100%;
-}
-
-.row3 {
-    margin: 5px;
-	overflow: hidden;
-    width: 100%;
+    flex: 1 1 300px; /* Adjust width depending on screen */
+    max-width: 400px;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 
 .gallery-image {
-	display: block;
-	width: 100%;
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+    transition: transform 0.5s ease-in-out;
 }
 
 .gallery-image:hover {
-	transform: scale(1.15);
-    transition: 1s ease-in-out;
+    transform: scale(1.05);
 }
 
-.illustration .box1 {
-    grid-area: 1/1/4/3;
-    padding: 5px;
-}
-
-.illustration .box2 {
-    grid-area: 1/3/4/5;
-    padding: 5px;
-}
-
-.illustration .box3 {
-    grid-area: 1/5/4/7;
-    padding: 5px;
-}
-
-.illustration .box4 {
-    grid-area: 4/1/6/3;
-    padding: 5px;
-}
-
-.illustration .box5 {
-    grid-area: 4/3/6/5;
-    padding: 5px;
-}
-
-.illustration .box6 {
-    grid-area: 4/5/6/7;
-    padding: 5px;
-}
-
-.illustration .box7{
-    grid-area: 6/1/8/4;
-    padding: 5px;
-}
-
-.illustration .box8{
-    grid-area: 6/4/8/7;
-    padding: 5px;
-}
 
 
 
