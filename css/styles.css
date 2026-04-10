@@ -440,9 +440,9 @@ h3 {
     font-family: var(--fontOpen);
 }
 
-.design {
+/* .design {
     height: 300vh;
-}
+} */
 
 h4 {
     font-family: 'Arima', cursive;
@@ -1161,7 +1161,7 @@ footer>p {
 
     .textstyle2{
         font-size: 90px;
-        -webkit-text-stroke: 2px;
+        -webkit-text-stroke: 4px;
         -webkit-text-stroke-color: var(--themeRed);
     }
 
